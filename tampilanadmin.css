@@ -1,0 +1,83 @@
+.navigation{
+    width: 100%;
+    position: fixed;
+}
+
+#container{
+    size: 85%;
+    background-color: gray;
+    padding: 5px;
+    color: white;
+}
+
+.containerform{
+    width: 100%;
+    text-align: center;
+    background-image: url("assets/gambar2/texture.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: none;
+
+}
+
+
+#titleform{
+    color: black;
+    background-image: url("assets/gambar2/texture.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: none;
+    font-size: 30px;
+    padding-bottom: 1cm;
+}
+
+#formtable{
+    color: black;
+    border-radius: 25px;
+    background: bisque;
+    padding: 20px; 
+    width: 20cm;
+    height: 10cm;  
+    font-family: "Montserrat";
+    font-size: 25px;
+}
+
+.navigation #box-navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.member{
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+}
+
+.member b{
+    padding-top: 5cm;
+    text-align: center;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.member .containerform{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 5cm;
+}
+
+#hasilinput{
+    width: 20cm;
+    margin-left:auto; 
+    margin-right:auto;
+}
+
+.containerhasil{
+    width: 100%;
+    text-align: center;
+    background-image: url("assets/gambar2/texture.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: none;
+
+}

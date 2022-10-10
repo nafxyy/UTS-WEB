@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap" rel="stylesheet">
+    <title>NAF STORE | Local Thrifting Store</title>
+
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/fontawesome.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/owl.css">
+  </head>
+
+  <body>
+    <div id="preloader">
+        <div class="jumper">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>  
+
+    <header class="">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container">
+          <a class="navbar-brand" href="index.php"><h2>Local Thrifting Store<em>.</em></h2></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="index.php">Home
+                  <span class="sr-only">(current)</span>
+                </a>
+              </li> 
+              <li class="nav-item">
+                <a class="nav-link" href="packages.html">Clothes</a>
+              </li>
+
+              <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle active" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">About</a>
+                  
+                  <div class="dropdown-menu">
+                    <a class="dropdown-item" href="about.html">About Us</a>
+                    <a class="dropdown-item active" href="testimonials.html">Testimonials</a>
+                  </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <div class="heading-page header-text">
+      <section class="page-heading">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="text-content">
+                <h2>Read what people say about us!</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    
+    
+    <div class="blog-posts">
+      <div class="container">
+        <div class="sidebar-item comments">
+          <div class="content">
+            <ul>
+              <li>
+                <div class="author-thumb">
+                  <img src="assets/gambar2/orang1.png" alt="">
+                </div>
+                <div class="right-content">
+                  <h4>Sova<span>25-05-2021</span></h4>
+                  <p>Bajunya enak dipakai, murah juga terus wangi. Rekomended banget beli disini</p>
+                </div>
+              </li>
+
+              <li>
+                <div class="author-thumb">
+                  <img src="assets/gambar2/orang2.png" alt="">
+                </div>
+                <div class="right-content">
+                  <h4>Jett<span>10-07-2021</span></h4>
+                  <p>Sweaternya GG pol rek dijamin rekomended pokoknya mah</p>
+                </div>
+              </li>
+
+              <li>
+                <div class="author-thumb">
+                  <img src="assets/gambar2/orang3.png" alt="">
+                </div>
+                <div class="right-content">
+                  <h4>Reyna<span>09-10-2022</span></h4>
+                  <p>Halo saya reyna dari valorant, ini easter egg dari webnya doang terima kasih udah mampir</p>
+                </div>
+              </li>
+
+              <li>
+                <div class="author-thumb">
+                  <img src="assets/gambar2/orang4.png" alt="">
+                </div>
+                <div class="right-content">
+                  <h4>Viper<span>22-05-2022</span></h4>
+                  <p>Saya viper temennya reyna halo semuanya ini easter egg part 2</p>
+                </div>
+              </li>
+              <li>
+                <div class="author-thumb">
+                  <img src="assets/gambar2/orang5.png" alt="">
+                </div>
+                <div class="right-content">
+                  <h4>Killjoy<span>27-05-2022</span></h4>
+                  <p>Saya killjoy temennya viper halo semuanya ini juga easter egg part 3</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    
+    <footer>
+      <div class="container">
+          <div class="col-lg-12">
+            <div class="copyright-text">
+              <p>Copyright © 2022 By Naf Store</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Additional Scripts -->
+    <script src="assets/js/custom.js"></script>
+    <script src="assets/js/owl.js"></script>
+    <script src="assets/js/slick.js"></script>
+    <script src="assets/js/isotope.js"></script>
+    <script src="assets/js/accordions.js"></script>
+
+    <script language = "text/Javascript"> 
+      cleared[0] = cleared[1] = cleared[2] = 0; //set a cleared flag for each field
+      function clearField(t){                   //declaring the array outside of the
+      if(! cleared[t.id]){                      // function makes it static and global
+          cleared[t.id] = 1;  // you could use true and false, but that's more typing
+          t.value='';         // with more chance of typos
+          t.style.color='#fff';
+          }
+      }
+    </script>
+
+  </body>
+</html>
